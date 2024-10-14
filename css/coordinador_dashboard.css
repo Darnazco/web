@@ -1,0 +1,54 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif; /* Tipo de fuente */
+    margin: 0; /* Sin márgenes */
+    padding: 0; /* Sin relleno */
+    background-color: #f4f4f4; /* Color de fondo claro */
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor */
+    padding: 20px; /* Relleno */
+}
+
+/* Estilo del título */
+h1 {
+    text-align: center; /* Centrar el texto */
+    color: magenta; /* Color magenta para el título */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+/* Contenedor de botones */
+.button-container {
+    display: flex; /* Usar flexbox para alinear los botones */
+    flex-wrap: wrap; /* Permitir que los botones se envuelvan */
+    justify-content: center; /* Centrar los botones horizontalmente */
+}
+
+/* Estilo de los botones */
+.button {
+    background-color: magenta; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    padding: 15px 25px; /* Espaciado interno */
+    margin: 10px; /* Margen alrededor */
+    text-decoration: none; /* Sin subrayado en el texto */
+    border-radius: 4px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+/* Efecto hover en los botones */
+.button:hover {
+    background-color: darkmagenta; /* Color más oscuro al pasar el ratón */
+}
+
+/* Estilo para el botón de cerrar sesión */
+.button:last-child {
+    background-color: red; /* Color de fondo diferente para cerrar sesión */
+}
+
+/* Efecto hover en el botón de cerrar sesión */
+.button:last-child:hover {
+    background-color: darkred; /* Color más oscuro al pasar el ratón */
+}

@@ -1,0 +1,82 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Color de fondo claro */
+}
+
+/* Estilo del título principal */
+h1 {
+    text-align: center; /* Centrar el texto */
+    color: magenta; /* Color magenta para el título */
+}
+
+/* Estilo del subtítulo */
+h2 {
+    text-align: center; /* Centrar el texto */
+    color: #333; /* Color gris oscuro para el subtítulo */
+}
+
+/* Estilo del formulario */
+form {
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: 20px auto; /* Centramos el formulario */
+    padding: 20px; /* Espaciado interno */
+    background-color: white; /* Fondo blanco para el formulario */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo de las etiquetas */
+label {
+    display: block; /* Hacer que las etiquetas ocupen todo el ancho */
+    margin-bottom: 10px; /* Margen inferior */
+    color: #333; /* Color gris oscuro para las etiquetas */
+}
+
+/* Estilo del campo de selección */
+select {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    margin: 10px 0; /* Margen superior e inferior */
+    border: 1px solid #ccc; /* Bordes grises */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+/* Estilo del botón de envío */
+button {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    background-color: magenta; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin bordes */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 1em; /* Tamaño de la fuente */
+    cursor: pointer; /* Cambiar cursor al pasar el ratón */
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+/* Efecto hover en el botón */
+button:hover {
+    background-color: darkmagenta; /* Color más oscuro al pasar el ratón */
+}
+
+/* Estilo del enlace de cerrar sesión */
+a.button {
+    display: inline-block; /* Hacer que el enlace ocupe solo lo necesario */
+    margin-top: 10px; /* Margen superior */
+    color: magenta; /* Color magenta */
+    text-decoration: none; /* Sin subrayado */
+    text-align: center; /* Centrar el texto del enlace */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid magenta; /* Bordes magenta */
+    border-radius: 4px; /* Bordes redondeados */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave para el hover */
+}
+
+/* Efecto hover en el enlace de cerrar sesión */
+a.button:hover {
+    background-color: darkmagenta; /* Color más oscuro al pasar el ratón */
+    color: white; /* Cambiar texto a blanco al pasar el ratón */
+}

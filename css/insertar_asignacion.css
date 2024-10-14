@@ -1,0 +1,87 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif; /* Tipo de fuente */
+    margin: 0; /* Sin márgenes */
+    padding: 0; /* Sin relleno */
+    background-color: #f4f4f4; /* Color de fondo claro */
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 600px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor */
+    padding: 20px; /* Relleno */
+    background-color: white; /* Fondo blanco */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilo del título */
+h1 {
+    text-align: center; /* Centrar el texto */
+    color: magenta; /* Color magenta para el título */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+/* Estilo del formulario */
+form {
+    display: flex; /* Usar flexbox */
+    flex-direction: column; /* Apilar elementos en columnas */
+}
+
+/* Estilo de las etiquetas */
+label {
+    margin-bottom: 5px; /* Margen inferior */
+    color: #333; /* Color del texto */
+}
+
+/* Estilo de los campos de entrada y select */
+input[type="number"],
+input[type="date"],
+select {
+    padding: 10px; /* Relleno interno */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 4px; /* Bordes redondeados */
+    margin-bottom: 15px; /* Margen inferior */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+/* Estilo del botón de inserción */
+button {
+    padding: 10px; /* Relleno interno */
+    background-color: magenta; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+/* Efecto hover en el botón de inserción */
+button:hover {
+    background-color: darkmagenta; /* Color más oscuro al pasar el ratón */
+}
+
+/* Estilo para mensajes de error */
+.error {
+    color: red; /* Color rojo para mensajes de error */
+    text-align: center; /* Centrar el texto */
+    margin-bottom: 15px; /* Margen inferior */
+}
+
+/* Estilo del enlace para volver */
+a.button {
+    display: inline-block; /* Mostrar como bloque en línea */
+    padding: 10px; /* Relleno interno */
+    background-color: #ddd; /* Color de fondo gris */
+    color: black; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 4px; /* Bordes redondeados */
+    text-align: center; /* Centrar el texto */
+    margin-top: 10px; /* Margen superior */
+}
+
+/* Efecto hover en el enlace para volver */
+a.button:hover {
+    background-color: #ccc; /* Color más oscuro al pasar el ratón */
+}

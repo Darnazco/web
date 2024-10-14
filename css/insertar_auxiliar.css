@@ -1,0 +1,82 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif; /* Tipo de fuente */
+    margin: 0; /* Sin márgenes */
+    padding: 0; /* Sin relleno */
+    background-color: #f4f4f4; /* Color de fondo claro */
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor */
+    padding: 20px; /* Relleno */
+    background-color: white; /* Color de fondo blanco */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para el contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Estilo del título */
+h1 {
+    text-align: center; /* Centrar el texto */
+    color: magenta; /* Color magenta para el título */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+/* Estilo del formulario */
+form {
+    display: flex; /* Usar flexbox para el diseño */
+    flex-direction: column; /* Colocar elementos en columna */
+}
+
+/* Estilo de las etiquetas */
+label {
+    margin-bottom: 5px; /* Margen inferior */
+    font-weight: bold; /* Negrita */
+}
+
+/* Estilo de los campos de entrada */
+input[type="text"],
+input[type="email"],
+select {
+    padding: 10px; /* Relleno interno */
+    margin-bottom: 15px; /* Margen inferior */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 4px; /* Bordes redondeados */
+    width: 100%; /* Ancho completo */
+}
+
+/* Estilo del botón de inserción */
+button {
+    padding: 10px 15px; /* Relleno interno */
+    background-color: magenta; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+/* Efecto hover en el botón de inserción */
+button:hover {
+    background-color: darkmagenta; /* Color más oscuro al pasar el ratón */
+}
+
+/* Estilo del enlace de volver */
+a.button {
+    display: inline-block; /* Mostrar como bloque en línea */
+    text-align: center; /* Centrar texto */
+    margin-top: 20px; /* Margen superior */
+    padding: 10px 15px; /* Relleno interno */
+    background-color: #f4f4f4; /* Color de fondo */
+    color: magenta; /* Color de texto */
+    border: 1px solid magenta; /* Borde magenta */
+    border-radius: 4px; /* Bordes redondeados */
+    text-decoration: none; /* Sin subrayado en el texto */
+}
+
+/* Efecto hover en el enlace de volver */
+a.button:hover {
+    background-color: magenta; /* Color de fondo al pasar */
+    color: white; /* Cambiar color de texto al pasar */
+}

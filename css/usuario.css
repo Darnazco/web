@@ -1,0 +1,105 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif; /* Tipo de fuente */
+    margin: 0; /* Sin márgenes */
+    padding: 0; /* Sin relleno */
+    background-color: #f4f4f4; /* Color de fondo claro */
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor */
+    padding: 20px; /* Relleno */
+}
+
+/* Estilo del título */
+h1 {
+    text-align: center; /* Centrar el texto */
+    color: magenta; /* Color magenta para el título */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+/* Estilo del formulario de búsqueda */
+form {
+    text-align: center; /* Centrar el formulario */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+/* Estilo del campo de búsqueda */
+input[type="text"] {
+    padding: 10px; /* Espaciado interno */
+    width: 200px; /* Ancho del campo */
+    border: 1px solid #ddd; /* Borde */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+/* Estilo del botón de búsqueda */
+button {
+    padding: 10px 15px; /* Espaciado interno */
+    background-color: magenta; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    margin-left: 5px; /* Margen a la izquierda */
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+/* Efecto hover en el botón de búsqueda */
+button:hover {
+    background-color: darkmagenta; /* Color más oscuro al pasar el ratón */
+}
+
+/* Estilo de la tabla */
+table {
+    width: 100%; /* Ancho completo */
+    border-collapse: collapse; /* Colapsar bordes */
+    margin-top: 20px; /* Margen superior */
+}
+
+/* Estilo de los encabezados de la tabla */
+th, td {
+    border: 1px solid #ddd; /* Borde de las celdas */
+    padding: 8px; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+}
+
+/* Estilo de los encabezados */
+th {
+    background-color: magenta; /* Color de fondo del encabezado */
+    color: white; /* Color del texto */
+}
+
+/* Estilo de las filas de la tabla */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Color de fondo alterno para las filas */
+}
+
+/* Estilo para enlaces de acciones */
+a {
+    color: blue; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+}
+
+/* Efecto hover en enlaces de acciones */
+a:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+}
+
+/* Estilo de botón para acciones */
+.button {
+    background-color: magenta; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 15px; /* Espaciado interno */
+    margin: 10px 0; /* Margen vertical */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 4px; /* Bordes redondeados */
+    display: inline-block; /* Mostrar como bloque en línea */
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+/* Efecto hover en el botón de acción */
+.button:hover {
+    background-color: darkmagenta; /* Color más oscuro al pasar el ratón */
+}

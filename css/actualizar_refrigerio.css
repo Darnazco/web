@@ -1,0 +1,77 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif; /* Tipo de fuente */
+    margin: 0; /* Sin márgenes */
+    padding: 0; /* Sin relleno */
+    background-color: #f4f4f4; /* Color de fondo claro */
+}
+
+/* Estilo del título */
+h1 {
+    text-align: center; /* Centrar el texto */
+    color: magenta; /* Color magenta para el título */
+    margin-top: 20px; /* Margen superior */
+}
+
+/* Estilo del formulario */
+form {
+    max-width: 600px; /* Ancho máximo del formulario */
+    margin: 20px auto; /* Centrar el formulario */
+    padding: 20px; /* Relleno */
+    background-color: white; /* Fondo blanco para el formulario */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo de las etiquetas */
+label {
+    display: block; /* Mostrar cada etiqueta como bloque */
+    margin-bottom: 5px; /* Margen inferior */
+    font-weight: bold; /* Negrita */
+}
+
+/* Estilo de los campos de entrada */
+input[type="date"],
+input[type="time"],
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 15px; /* Margen inferior */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 4px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluir padding y borde en el ancho total */
+}
+
+/* Estilo del botón de actualización */
+button {
+    background-color: magenta; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+/* Efecto hover en el botón */
+button:hover {
+    background-color: darkmagenta; /* Color más oscuro al pasar el ratón */
+}
+
+/* Estilo del enlace para volver al dashboard */
+a {
+    display: block; /* Mostrar como bloque */
+    text-align: center; /* Centrar el texto */
+    margin-top: 20px; /* Margen superior */
+    color: magenta; /* Color magenta */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s; /* Transición suave para el hover */
+}
+
+/* Efecto hover en el enlace */
+a:hover {
+    color: darkmagenta; /* Color más oscuro al pasar el ratón */
+}

@@ -1,0 +1,79 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif; /* Tipo de fuente */
+    margin: 0; /* Sin márgenes */
+    padding: 0; /* Sin relleno */
+    background-color: #f4f4f4; /* Color de fondo claro */
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 600px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor */
+    padding: 20px; /* Relleno */
+    background-color: white; /* Color de fondo blanco */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Estilo del título */
+h1 {
+    text-align: center; /* Centrar el texto */
+    color: magenta; /* Color magenta para el título */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+/* Estilo de los mensajes de error */
+.error {
+    color: red; /* Color rojo para mensajes de error */
+    text-align: center; /* Centrar el texto */
+    margin-bottom: 15px; /* Margen inferior */
+}
+
+/* Estilo del formulario */
+form {
+    display: flex; /* Usar flexbox para el formulario */
+    flex-direction: column; /* Dirección vertical */
+}
+
+/* Estilo de las etiquetas */
+label {
+    margin-bottom: 5px; /* Margen inferior */
+}
+
+/* Estilo de los campos de entrada */
+input[type="text"], input[type="number"], select {
+    padding: 10px; /* Relleno interno */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 4px; /* Bordes redondeados */
+    margin-bottom: 15px; /* Margen inferior */
+}
+
+/* Estilo del botón de inserción */
+.button {
+    padding: 10px 15px; /* Relleno interno */
+    background-color: magenta; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+/* Efecto hover en el botón de inserción */
+.button:hover {
+    background-color: darkmagenta; /* Color más oscuro al pasar el ratón */
+}
+
+/* Estilo para el enlace de volver */
+a.button {
+    display: inline-block; /* Hacer el enlace como un botón */
+    text-align: center; /* Centrar el texto */
+    margin-top: 20px; /* Margen superior */
+    background-color: #ccc; /* Color de fondo gris */
+}
+
+/* Efecto hover en el enlace de volver */
+a.button:hover {
+    background-color: #aaa; /* Color más oscuro al pasar el ratón */
+}

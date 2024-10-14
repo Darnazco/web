@@ -1,0 +1,102 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif; /* Tipo de fuente */
+    margin: 0; /* Sin márgenes */
+    padding: 0; /* Sin relleno */
+    background-color: #f4f4f4; /* Color de fondo claro */
+}
+
+/* Estilo del título principal */
+h1 {
+    text-align: center; /* Centrar el texto */
+    color: magenta; /* Color magenta para el título */
+}
+
+/* Estilo del formulario */
+form {
+    text-align: center; /* Centrar el formulario */
+    margin: 20px 0; /* Margen superior e inferior */
+}
+
+/* Estilo del input de búsqueda */
+input[type="date"] {
+    padding: 8px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+/* Estilo del botón de búsqueda */
+button[type="submit"] {
+    background-color: magenta; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espaciado interno */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+/* Efecto hover en el botón de búsqueda */
+button[type="submit"]:hover {
+    background-color: darkmagenta; /* Color más oscuro al pasar el ratón */
+}
+
+/* Estilo de la tabla */
+table {
+    width: 100%; /* Ancho de la tabla */
+    border-collapse: collapse; /* Colapsar bordes */
+    margin: 20px 0; /* Margen superior e inferior */
+}
+
+/* Estilo de la tabla, encabezados y celdas */
+table, th, td {
+    border: 1px solid #ddd; /* Borde gris claro */
+}
+
+/* Estilo de las celdas de la tabla */
+th, td {
+    padding: 8px; /* Espaciado interno */
+    text-align: center; /* Alinear texto al centro */
+}
+
+/* Estilo para filas de asignación no completadas (rojas) */
+.rojo {
+    color: red; /* Color rojo para filas no completadas */
+}
+
+/* Estilo para filas de asignación completadas (verdes) */
+.verde {
+    color: green; /* Color verde para filas completadas */
+}
+
+/* Estilo del botón de cerrar sesión */
+.btn {
+    padding: 10px 15px; /* Espaciado interno */
+    margin: 10px; /* Margen alrededor */
+    cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+    background-color: magenta; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+/* Efecto hover en el botón de cerrar sesión */
+.btn:hover {
+    background-color: darkmagenta; /* Color más oscuro al pasar el ratón */
+}
+
+/* Estilo de los botones de asignación */
+.btn-asignar {
+    background-color: #007BFF; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    padding: 8px 12px; /* Espaciado interno */
+    cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+}
+
+/* Efecto hover en los botones de asignación */
+.btn-asignar:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el ratón */
+}

@@ -1,0 +1,67 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif; /* Tipo de fuente */
+    margin: 0; /* Sin márgenes */
+    padding: 0; /* Sin relleno */
+    background-color: #f4f4f4; /* Color de fondo claro */
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 600px; /* Ancho máximo del contenedor */
+    margin: 50px auto; /* Centrar el contenedor */
+    padding: 20px; /* Relleno */
+    background-color: white; /* Color de fondo blanco para el formulario */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+}
+
+/* Estilo del título */
+h1 {
+    text-align: center; /* Centrar el texto */
+    color: magenta; /* Color magenta para el título */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+/* Estilo de las etiquetas */
+label {
+    display: block; /* Hacer que las etiquetas ocupen toda la línea */
+    margin: 10px 0 5px; /* Margen */
+    color: #333; /* Color de texto oscuro */
+}
+
+/* Estilo de los campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Relleno */
+    margin-bottom: 15px; /* Margen inferior */
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 4px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluir el relleno y el borde en el ancho total */
+}
+
+/* Estilo del botón */
+.button {
+    background-color: magenta; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    padding: 15px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+    width: 100%; /* Ancho completo */
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+/* Efecto hover en los botones */
+.button:hover {
+    background-color: darkmagenta; /* Color más oscuro al pasar el ratón */
+}
+
+/* Estilo del enlace */
+a.button {
+    text-align: center; /* Centrar texto */
+    display: inline-block; /* Hacer que el enlace se comporte como un bloque */
+    margin-top: 20px; /* Margen superior */
+}
